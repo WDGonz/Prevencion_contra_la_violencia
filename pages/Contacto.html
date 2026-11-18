@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención de Violencia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Contacto.css">
+    <link rel="stylesheet" href="./site-header.css">
+    <link rel="stylesheet" href="./site-footer.css">
+
+</head>
+<body>
+
+  <header>
+    <nav class="site-navbar" aria-label="Navegación principal">
+      <div class="site-navbar-container">
+        <a class="site-brand" href="./Index.html">
+          <img src="../multimedia/_ea32f978-8f06-4795-a985-cf6ea9c8218f.jpeg" alt="" width="48" height="48">
+          <span>Prevención <span class="brand-accent">contra la violencia</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="site-menu" id="navbarSupportedContent">
+          <ul class="site-nav-links">
+            <li><a class="nav-link" href="./Index.html">Inicio</a></li>
+            <li><a class="nav-link" href="./Sobrenosotros.html">Sobre nosotros</a></li>
+            <li><a class="nav-link" href="./Infogeneral.html">Info general</a></li>
+            <li><a class="nav-link active" href="./Contacto.html" aria-current="page">Contacto</a></li>
+          </ul>
+          <a class="header-cta" href="./Contacto.html">Conócenos <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+                         
+      
+    
+<main class="contact-page">
+    <section id="formulario" class="contact-section" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <p class="contact-eyebrow">Contacto</p>
+        <h1 id="contact-title">Tu voz también ayuda a prevenir la violencia</h1>
+        <p>¿Tienes una consulta, una propuesta o quieres compartir una idea? Escríbenos. Nos interesa construir espacios más respetuosos y seguros en comunidad.</p>
+        <div class="contact-reminder">
+          <span aria-hidden="true">✦</span>
+          <p>Un mensaje respetuoso puede ser el comienzo de un cambio positivo.</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card-heading">
+          <h2>Envíanos un mensaje</h2>
+          <p>Completa tus datos y cuéntanos cómo podemos ayudarte.</p>
+        </div>
+        <form action="#" method="post">
+          <div class="contact-field-grid">
+            <div class="contact-field">
+              <label for="nombre">Nombre <span aria-hidden="true">*</span></label>
+              <input type="text" id="nombre" name="nombre" autocomplete="given-name" placeholder="Tu nombre" required>
+            </div>
+
+            <div class="contact-field">
+              <label for="apellido">Apellido <span aria-hidden="true">*</span></label>
+              <input type="text" id="apellido" name="apellido" autocomplete="family-name" placeholder="Tu apellido" required>
+            </div>
+
+            <div class="contact-field contact-field-wide">
+              <label for="email">Correo electrónico <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="nombre@ejemplo.com" required>
+            </div>
+
+            <div class="contact-field contact-field-wide">
+              <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+              <textarea id="mensaje" name="mensaje" rows="5" maxlength="300" aria-describedby="mensaje-ayuda" placeholder="Escribe aquí tu mensaje..." required></textarea>
+              <p class="contact-field-help" id="mensaje-ayuda">Máximo 300 caracteres.</p>
+            </div>
+          </div>
+
+          <p class="contact-form-note">Todos los campos son obligatorios.</p>
+          <button class="contact-submit" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+        </form>
+      </div>
+    </section>
+</main>
+
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="footer-brand-name" href="./Index.html">
+            <img class="footer-brand-logo" src="../multimedia/_ea32f978-8f06-4795-a985-cf6ea9c8218f.jpeg" alt="" width="48" height="48">
+            <span class="footer-brand-copy">Prevención <span>contra la violencia</span></span>
+          </a>
+          <p>Promovemos el respeto, la igualdad y la construcción de espacios seguros para todas las personas.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navegación del pie de página">
+          <h2>Explora el sitio</h2>
+          <ul>
+            <li><a href="./Index.html">Inicio</a></li>
+            <li><a href="./Sobrenosotros.html">Sobre nosotros</a></li>
+            <li><a href="./Infogeneral.html">Info general</a></li>
+            <li><a href="./Contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="footer-community">
+          <h2>La prevención empieza en comunidad</h2>
+          <p>Informarse, escuchar sin juzgar y acompañar con respeto también ayuda a prevenir la violencia.</p>
+          <a class="footer-contact-link" href="./Contacto.html">Escríbenos <span aria-hidden="true">→</span></a>
+          <div class="footer-socials">
+            <h2>Redes sociales</h2>
+            <div class="footer-social-icons" role="group" aria-label="Redes sociales del proyecto">
+              <span class="footer-social-icon" role="img" aria-label="Facebook"><img src="../multimedia/icons8-facebook-nuevo.svg" alt=""></span>
+              <span class="footer-social-icon" role="img" aria-label="Instagram"><img src="../multimedia/icons8-instagram.svg" alt=""></span>
+              <span class="footer-social-icon footer-tiktok" role="img" aria-label="TikTok">♪</span>
+              <span class="footer-social-icon footer-youtube" role="img" aria-label="YouTube"><span aria-hidden="true"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Proyecto educativo · Codo a Codo</p>
+        <p>Este sitio ofrece información general. Ante una emergencia, contacta a los servicios locales.</p>
+      </div>
+    </footer>
+    <script src="./navigation.js"></script>
+</body>
+</html>

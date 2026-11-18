@@ -1,0 +1,14 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr; /* Una sola columna en dispositivos móviles */
+    }
+}
+
